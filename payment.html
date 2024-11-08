@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment - SciAstra</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/payment.css">
+</head>
+<body>
+
+  <canvas id="background-canvas"></canvas>
+
+  <header>
+      <nav>
+        <ul>
+          <li><a href="index.html"><img src="images/logo.png" alt=""></a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+
+  <div class="main-div">  
+    <main>
+      <section class="listing">
+        <h1>Complete Your Payment</h1>
+        <div class="payment-options">
+          <form id="payment-form">
+            <label for="payment-method">Choose Payment Method:</label>
+            <select id="payment-method" name="payment-method">
+              <option value="credit-card">Credit Card</option>
+              <option value="debit-card">Debit Card</option>
+              <option value="upi">UPI</option>
+            </select>
+            <button type="submit">Proceed to Payment</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </div>
+
+</body>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/background.js"></script>
+</html>
